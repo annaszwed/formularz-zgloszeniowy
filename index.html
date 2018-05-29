@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Chcesz zostać programistą? Zapisz się na szkolenie!</h2>
+
+    <form action="https://formspree.io/anna.szwed@o2.pl" method="POST">
+
+        <label for="user-name">Imię</label><br />
+        <input type="text" name="name" id="user-name" placeholder="Podaj imię">
+        <br />
+
+        <label for="user-surname">Nazwisko</label><br />
+        <input type="text" name="name" id="user-surname" placeholder="Podaj nazwisko">
+        <br />
+
+        <label for="email">Email</label><br />
+        <input type="email" name="mail" id="email" placeholder="Twój mail" required>
+        <br />
+
+
+        <label for="phone">Telefon</label><br />
+        <input type="text" name="phone" id="phone" placeholder="Twój numer">
+        <br />
+
+        <p>Płeć:
+            <input type="radio" name="gender" id="female"><label for="female">Kobieta</label>
+            <input type="radio" name="gender" id="male"><label for="male">Mężczyzna</label></p>
+
+
+        <label for="twoje-miasto">Twoje miasto:</label><br />
+        <select name="cities" id="twoje-miasto">
+       <option value="Warszawa">Warszawa</option>
+       <option value="Kraków">Kraków</option>
+       <option value="Gdańsk">Gdańsk</option>
+    </select><br /><br />
+
+        <textarea name="message"></textarea><br />
+
+        <label for="agree">Zgoda na przetwarzanie danych osobowych</label>
+
+        <input type="checkbox" name="agreement" id="agree"><br />
+
+        <br />
+        <input type="submit" value="wyślij formularz">
+    </form>
+
+</body>
+
+</html>
